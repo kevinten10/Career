@@ -6,7 +6,7 @@
 
 | 分类 | 数量 | 说明 |
 |---|---:|---|
-| Markdown 文档 | 31 | 包含根目录索引、各目录 README、周报、面试笔记、招聘记录和生活计划。 |
+| Markdown 文档 | 37 | 包含根目录索引、各目录 README、周报、面试笔记、招聘记录、复盘摘要和生活计划。 |
 | Word 文档 | 1 | `IDP/2021IDP.docx`。 |
 | 图片 | 5 | 面试复习截图，分布在 `Interview/social/` 下的日期目录中。 |
 
@@ -16,15 +16,24 @@
 |---|---|
 | 面试复习模板 | [Interview/template.md](Interview/template.md) |
 | 能力项材料 | [Interview/2021-08.md](Interview/2021-08.md) |
+| 面试知识地图 | [Interview/KNOWLEDGE_MAP.md](Interview/KNOWLEDGE_MAP.md) |
 | 社交/业务系统设计 | [Interview/social](Interview/README.md#social-笔记) |
 | JVM dump 与内存引用分析 | [Interview/social/20240521/2024-05-21.md](Interview/social/20240521/2024-05-21.md) |
 | 多线程与线程池 | [Interview/social/20240516/2024-05-16.md](Interview/social/20240516/2024-05-16.md) |
 | Redis 热点与互动计数 | [Interview/social/20240510/2024-05-10.md](Interview/social/20240510/2024-05-10.md)、[Interview/social/20240517/2024-05-17.md](Interview/social/20240517/2024-05-17.md) |
 | SQL 索引失效 | [Interview/social/20240513/2024-05-13.md](Interview/social/20240513/2024-05-13.md) |
-| 招聘活动 | [Recruitment/2021春招.md](Recruitment/2021春招.md)、[Recruitment/2021秋招.md](Recruitment/2021秋招.md) |
-| 周报复盘 | [WeeklyReport/README.md](WeeklyReport/README.md) |
-| 个人发展计划 | [IDP/2021IDP.docx](IDP/2021IDP.docx) |
+| 招聘活动 | [Recruitment/2021春招.md](Recruitment/2021春招.md)、[Recruitment/2021春招复盘.md](Recruitment/2021春招复盘.md)、[Recruitment/2021秋招.md](Recruitment/2021秋招.md) |
+| 周报复盘 | [WeeklyReport/2021-summary.md](WeeklyReport/2021-summary.md) |
+| 个人发展计划 | [IDP/2021IDP.docx](IDP/2021IDP.docx)、[IDP/2021IDP.md](IDP/2021IDP.md) |
 | 生活计划 | [Food/2021-11美食月.md](Food/2021-11美食月.md) |
+| 内容审计 | [docs/content-audit.md](docs/content-audit.md) |
+
+## docs
+
+| 文件 | 内容摘要 |
+|---|---|
+| [docs/README.md](docs/README.md) | 跨目录整理文档入口。 |
+| [docs/content-audit.md](docs/content-audit.md) | 当前内容审计、空白点、优化建议和维护检查脚本。 |
 
 ## Food
 
@@ -37,6 +46,7 @@
 | 文件 | 内容摘要 |
 |---|---|
 | [IDP/2021IDP.docx](IDP/2021IDP.docx) | 个人发展计划表，包含职业发展目标、优势与挑战、当前工作/项目总结、重点能力发展项和行动计划。 |
+| [IDP/2021IDP.md](IDP/2021IDP.md) | Word 表格的 Markdown 摘要，便于搜索职业目标、优势挑战、发展项和行动计划。 |
 
 ## Interview
 
@@ -44,6 +54,7 @@
 |---|---|
 | [Interview/template.md](Interview/template.md) | 面试复习模板，按业务知识、技术知识、知识复习组织。 |
 | [Interview/2021-08.md](Interview/2021-08.md) | 能力项材料，覆盖独立思考、卓越执行、自我驱动。 |
+| [Interview/KNOWLEDGE_MAP.md](Interview/KNOWLEDGE_MAP.md) | 面试知识地图，按能力项、业务知识和技术知识组织资料入口。 |
 
 ### Interview/social
 
@@ -65,7 +76,8 @@
 | 文件 | 内容摘要 |
 |---|---|
 | [Recruitment/2021春招.md](Recruitment/2021春招.md) | 2021 年 4 月春招直播记录，包含直播前序交流和活动准备内容。 |
-| [Recruitment/2021秋招.md](Recruitment/2021秋招.md) | 秋招记录占位，当前内容为 TODO。 |
+| [Recruitment/2021春招复盘.md](Recruitment/2021春招复盘.md) | 春招直播复盘，提炼直播定位、岗位卖点、可复用话术和后续复盘问题。 |
+| [Recruitment/2021秋招.md](Recruitment/2021秋招.md) | 秋招复盘模板，等待补充目标、渠道、数据、过程和结论。 |
 
 ## WeeklyReport
 
@@ -79,6 +91,7 @@
 | [WeeklyReport/2021-8-15.md](WeeklyReport/2021-8-15.md) | 2021-8-15 周报。 |
 | [WeeklyReport/2021-8-25.md](WeeklyReport/2021-8-25.md) | 2021-8-25 周报，使用完整周报结构。 |
 | [WeeklyReport/2021-9-3.md](WeeklyReport/2021-9-3.md) | 一周总结，记录秋招内推、CDP、兴趣小组、capa、climp 等事项。 |
+| [WeeklyReport/2021-summary.md](WeeklyReport/2021-summary.md) | 2021 周报汇总，提炼时间线、项目线索、面试素材和后续补充建议。 |
 
 ## 维护约定
 
@@ -91,7 +104,7 @@
 
 | 项目 | 当前状态 | 建议动作 |
 |---|---|---|
-| `Recruitment/2021秋招.md` | 仅有 TODO | 补充秋招目标、渠道、数据、结果和复盘。 |
-| 早期周报 | 部分只有简短标题和表格 | 可按季度汇总关键项目、产出和复盘结论。 |
-| 面试笔记 | 部分条目仍为 `xx` 占位 | 补齐业务知识、技术知识和知识复习中的空白项。 |
-| IDP 文档 | 当前为 Word 表格 | 可另建 Markdown 摘要，方便在仓库内搜索。 |
+| `Recruitment/2021秋招.md` | 已改为结构化模板 | 补充真实目标、渠道、数据、结果和复盘。 |
+| 早期周报 | 已有 2021 汇总 | 可继续按季度或项目拆出更详细复盘。 |
+| 面试笔记 | 占位标题已改为“待补充” | 补齐业务知识、技术知识和知识复习中的空白项。 |
+| IDP 文档 | 已补 Markdown 摘要 | 后续年份继续保持 Word 原件和 Markdown 摘要。 |
